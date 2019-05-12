@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="Shanks.lamda"
+		module="shashank_maithani_cs441_hw6$sources"
+		revision="0.1"
+		conf="provided"
+		confs="compile, runtime, test, provided, optional, protobuf, compile-internal, runtime-internal, test-internal, plugin, pom, scala-tool"
+		date="20190512084231"/>
+	<dependencies>
+	</dependencies>
+</ivy-report>

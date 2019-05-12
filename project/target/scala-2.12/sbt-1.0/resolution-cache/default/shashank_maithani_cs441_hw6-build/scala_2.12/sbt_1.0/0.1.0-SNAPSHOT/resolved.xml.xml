@@ -4,7 +4,7 @@
 		module="shashank_maithani_cs441_hw6-build"
 		revision="0.1.0-SNAPSHOT"
 		status="integration"
-		publication="20190512074814"
+		publication="20190512084225"
 		e:sbtVersion="1.0" e:scalaVersion="2.12"
 	>
 		<description>

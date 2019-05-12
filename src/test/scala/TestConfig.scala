@@ -1,8 +1,9 @@
-//import org.scalatest.FunSuite
-//
-//class TestConfig extends FunSuite {
-//  test("SIM1_Config_VM.test") {
-//    assert(new PullConfig().getSetting("test.a").toInt >= 0)
-//  }
-//
-//}
+import org.scalatest.FunSuite
+import org.simulation.cloudsim.config.PullConfig
+
+class TestConfig extends FunSuite {
+  test("Config.test") {
+    assert(new PullConfig().getSetting("test.a").toInt >= 0)
+  }
+
+}
