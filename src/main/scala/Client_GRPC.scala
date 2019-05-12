@@ -1,6 +1,5 @@
 
 import io.grpc.{ManagedChannelBuilder, Server, ServerBuilder}
-//import hello.{GreeterGrpc, HelloReply, HelloRequest}
 import lamda.{LamdaProto, CalculatorGrpc, Operator, Output}
 
 import scala.concurrent.ExecutionContext.Implicits.global

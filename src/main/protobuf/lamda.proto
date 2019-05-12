@@ -12,7 +12,7 @@ syntax = "proto3";
 import "google/api/annotations.proto";
 // The greeting service definition.
 service Calculator {
-    // Sends a greeting
+    // RPC for adding 2 numbers
     rpc Add (Operator) returns (Output) {
 //        option (google.api.http) = {
 //        post: "/v1/echo"
@@ -23,18 +23,24 @@ service Calculator {
             body: "*"
           };
     }
+
+    // RPC for subtracting 2 numbers
     rpc Sub (Operator) returns (Output) {
         option (google.api.http) = {
             get: "/sub"
             body: "*"
           };
     }
+
+    // RPC for multiplying 2 numbers
     rpc Mul (Operator) returns (Output) {
         option (google.api.http) = {
             get: "/mul"
             body: "*"
           };
     }
+
+    // RPC for dividing 2 numbers
     rpc Div (Operator) returns (Output) {
         option (google.api.http) = {
             get: "/div"
@@ -43,13 +49,13 @@ service Calculator {
     }
 }
 
-// The request message containing the user's name.
+// The request message performs operations or the 2 operands
 message Operator {
     string varA = 1;
     string varB = 2;
 }
 
-// The response message containing the greetings
+// The response message gives the output of the operations
 message Output {
     string result = 1;
 }

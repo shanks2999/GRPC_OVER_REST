@@ -5,6 +5,9 @@ import lamda.CalculatorHandler
 
 import scala.concurrent.ExecutionContext.Implicits.global
 
+/**
+  * This a thread which exposes port for REST calls
+  */
 class RestGatewayThread extends Runnable {
 
   def run: Unit = {
