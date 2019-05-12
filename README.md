@@ -18,7 +18,7 @@
   
    After a long process was able to run my GRPC over REST via grpcGateway provided by "beyondthelines". 
  
-   ![Snapshot for GRPC Call](jars/'GRPC Over REST'.PNG)
+   ![Snapshot for GRPC Call](jars/GRPC_OVER_REST.PNG)
   
   
    - The compiled jar is the jars folder which is being run in the FIG 1 which exposes 2 ports:
