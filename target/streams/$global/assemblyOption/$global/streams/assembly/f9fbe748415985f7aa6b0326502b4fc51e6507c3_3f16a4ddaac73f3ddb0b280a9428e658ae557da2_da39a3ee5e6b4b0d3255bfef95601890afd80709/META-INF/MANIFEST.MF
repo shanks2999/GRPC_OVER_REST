@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Implementation-Title: GrpcAkkaStreamRuntime
+Implementation-Version: 0.0.5
+Specification-Vendor: beyondthelines
+Specification-Title: GrpcAkkaStreamRuntime
+Implementation-Vendor-Id: beyondthelines
+Specification-Version: 0.0.5
+Implementation-Vendor: beyondthelines
+

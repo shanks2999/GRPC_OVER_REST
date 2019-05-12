@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Implementation-Title: scalapb-json4s
+Implementation-Version: 0.3.3
+Specification-Vendor: com.trueaccord.scalapb
+Specification-Title: scalapb-json4s
+Implementation-Vendor-Id: com.trueaccord.scalapb
+Specification-Version: 0.3.3
+Vcs-Release-Tag: v0.3.3
+Implementation-Vendor: com.trueaccord.scalapb
+Vcs-Release-Hash: 13cd358afdbd71f066488b45cf5a6edf81eb3148
+

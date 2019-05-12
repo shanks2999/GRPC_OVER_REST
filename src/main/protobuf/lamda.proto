@@ -1,0 +1,55 @@
+syntax = "proto3";
+
+//import "scalapb/scalapb.proto";
+//
+//option (scalapb.options) = {
+//  single_file: true
+//};
+//option (scalapb.options) = {
+//  flat_package: true
+//};
+//package com.example.protos;
+import "google/api/annotations.proto";
+// The greeting service definition.
+service Calculator {
+    // Sends a greeting
+    rpc Add (Operator) returns (Output) {
+//        option (google.api.http) = {
+//        post: "/v1/echo"
+//        body: "*"
+//        };
+        option (google.api.http) = {
+            get: "/add"
+            body: "*"
+          };
+    }
+    rpc Sub (Operator) returns (Output) {
+        option (google.api.http) = {
+            get: "/sub"
+            body: "*"
+          };
+    }
+    rpc Mul (Operator) returns (Output) {
+        option (google.api.http) = {
+            get: "/mul"
+            body: "*"
+          };
+    }
+    rpc Div (Operator) returns (Output) {
+        option (google.api.http) = {
+            get: "/div"
+            body: "*"
+          };
+    }
+}
+
+// The request message containing the user's name.
+message Operator {
+    string varA = 1;
+    string varB = 2;
+}
+
+// The response message containing the greetings
+message Output {
+    string result = 1;
+}

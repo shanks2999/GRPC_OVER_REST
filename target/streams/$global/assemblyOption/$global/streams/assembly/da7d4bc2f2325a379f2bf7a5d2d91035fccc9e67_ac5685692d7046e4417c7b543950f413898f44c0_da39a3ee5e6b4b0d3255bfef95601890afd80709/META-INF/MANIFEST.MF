@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Implementation-Title: GrpcMonixRuntime
+Implementation-Version: 0.0.5
+Specification-Vendor: beyondthelines
+Specification-Title: GrpcMonixRuntime
+Implementation-Vendor-Id: beyondthelines
+Specification-Version: 0.0.5
+Implementation-Vendor: beyondthelines
+

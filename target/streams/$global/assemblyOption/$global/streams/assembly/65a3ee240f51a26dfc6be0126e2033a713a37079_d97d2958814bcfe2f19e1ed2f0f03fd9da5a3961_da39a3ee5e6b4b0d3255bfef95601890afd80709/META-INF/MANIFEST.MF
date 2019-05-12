@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Implementation-Title: lenses
+Implementation-Version: 0.4.12
+Specification-Vendor: com.trueaccord.lenses
+Specification-Title: lenses
+Implementation-Vendor-Id: com.trueaccord.lenses
+Specification-Version: 0.4.12
+Implementation-Vendor: com.trueaccord.lenses
+

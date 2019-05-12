@@ -1,0 +1,114 @@
+swagger: '2.0'
+info:
+  version: not set
+  title: 'LamdaProto'
+  description: 'REST API generated from lamda.proto'
+schemes:
+  - http
+  - https
+consumes:
+  - 'application/json'
+produces:
+  - 'application/json'
+paths:
+  /add:
+    get:
+      tags:
+        - Calculator
+      summary:
+        'Add'
+      description:
+        'Generated from Calculator.Add'
+      produces:
+        ['application/json']
+      responses:
+        200:
+          description: 'Normal response'
+          schema:
+            $ref: "#/definitions/Output"
+      parameters:
+      - name: varA
+        in: query
+        type: string
+      - name: varB
+        in: query
+        type: string
+  /sub:
+    get:
+      tags:
+        - Calculator
+      summary:
+        'Sub'
+      description:
+        'Generated from Calculator.Sub'
+      produces:
+        ['application/json']
+      responses:
+        200:
+          description: 'Normal response'
+          schema:
+            $ref: "#/definitions/Output"
+      parameters:
+      - name: varA
+        in: query
+        type: string
+      - name: varB
+        in: query
+        type: string
+  /mul:
+    get:
+      tags:
+        - Calculator
+      summary:
+        'Mul'
+      description:
+        'Generated from Calculator.Mul'
+      produces:
+        ['application/json']
+      responses:
+        200:
+          description: 'Normal response'
+          schema:
+            $ref: "#/definitions/Output"
+      parameters:
+      - name: varA
+        in: query
+        type: string
+      - name: varB
+        in: query
+        type: string
+  /div:
+    get:
+      tags:
+        - Calculator
+      summary:
+        'Div'
+      description:
+        'Generated from Calculator.Div'
+      produces:
+        ['application/json']
+      responses:
+        200:
+          description: 'Normal response'
+          schema:
+            $ref: "#/definitions/Output"
+      parameters:
+      - name: varA
+        in: query
+        type: string
+      - name: varB
+        in: query
+        type: string
+definitions:
+  Operator:
+    type: object
+    properties: 
+      varA:
+        type: string
+      varB:
+        type: string
+  Output:
+    type: object
+    properties: 
+      result:
+        type: string

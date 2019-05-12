@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Implementation-Title: GrpcGatewayRuntime
+Implementation-Version: 0.0.6
+Specification-Vendor: beyondthelines
+Specification-Title: GrpcGatewayRuntime
+Implementation-Vendor-Id: beyondthelines
+Specification-Version: 0.0.6
+Implementation-Vendor: beyondthelines
+

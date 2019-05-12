@@ -1,0 +1,9 @@
+[info] Compiling 1 protobuf files to D:\Work\OneDrive\UIC\Spring - 2019\CS441 - Cloud\Homework\hw6\shashank_maithani_cs441_hw6\src\main\resources\specs,D:\Work\OneDrive\UIC\Spring - 2019\CS441 - Cloud\Homework\hw6\shashank_maithani_cs441_hw6\target\scala-2.12\src_managed\main,D:\Work\OneDrive\UIC\Spring - 2019\CS441 - Cloud\Homework\hw6\shashank_maithani_cs441_hw6\target\scala-2.12\src_managed\main,D:\Work\OneDrive\UIC\Spring - 2019\CS441 - Cloud\Homework\hw6\shashank_maithani_cs441_hw6\target\scala-2.12\src_managed\main,D:\Work\OneDrive\UIC\Spring - 2019\CS441 - Cloud\Homework\hw6\shashank_maithani_cs441_hw6\target\scala-2.12\src_managed\main
+[debug] protoc options:
+[info] Compiling schema D:\Work\OneDrive\UIC\Spring - 2019\CS441 - Cloud\Homework\hw6\shashank_maithani_cs441_hw6\src\main\protobuf\lamda.proto
+[info] Compiling protobuf
+[info] Protoc target directory: D:\Work\OneDrive\UIC\Spring - 2019\CS441 - Cloud\Homework\hw6\shashank_maithani_cs441_hw6\src\main\resources\specs
+[info] Protoc target directory: D:\Work\OneDrive\UIC\Spring - 2019\CS441 - Cloud\Homework\hw6\shashank_maithani_cs441_hw6\target\scala-2.12\src_managed\main
+[info] Protoc target directory: D:\Work\OneDrive\UIC\Spring - 2019\CS441 - Cloud\Homework\hw6\shashank_maithani_cs441_hw6\target\scala-2.12\src_managed\main
+[info] Protoc target directory: D:\Work\OneDrive\UIC\Spring - 2019\CS441 - Cloud\Homework\hw6\shashank_maithani_cs441_hw6\target\scala-2.12\src_managed\main
+[info] Protoc target directory: D:\Work\OneDrive\UIC\Spring - 2019\CS441 - Cloud\Homework\hw6\shashank_maithani_cs441_hw6\target\scala-2.12\src_managed\main

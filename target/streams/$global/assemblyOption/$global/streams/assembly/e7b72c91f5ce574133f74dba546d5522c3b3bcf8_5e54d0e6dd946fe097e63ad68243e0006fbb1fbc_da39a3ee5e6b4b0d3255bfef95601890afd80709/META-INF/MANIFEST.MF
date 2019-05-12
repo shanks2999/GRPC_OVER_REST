@@ -1,0 +1,8 @@
+Manifest-Version: 1.0
+Implementation-Title: opencensus-contrib-grpc-metrics
+Implementation-Version: 0.8.0
+Built-By: bdrutu
+Built-JDK: 1.8.0_112-google-v7
+Source-Compatibility: 1.6
+Target-Compatibility: 1.6
+

@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Implementation-Title: scalapb-runtime
+Implementation-Version: 0.6.7
+Specification-Vendor: com.trueaccord.scalapb
+Specification-Title: scalapb-runtime
+Implementation-Vendor-Id: com.trueaccord.scalapb
+Specification-Version: 0.6.7
+Implementation-Vendor: com.trueaccord.scalapb
+
