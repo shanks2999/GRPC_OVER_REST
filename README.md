@@ -18,9 +18,11 @@
   
    After a long process was able to run my GRPC over REST via grpcGateway provided by "beyondthelines". 
  
-   ![Snapshot for GRPC Call](jars/GRPC Over REST.PNG)
+   ![Snapshot for GRPC Call](/jars/GRPC Over REST.PNG)
+  
   
    - The compiled jar is the jars folder which is being run in the FIG 1 which exposes 2 ports:
+   
         - Port 8980 for GRPC calls over HTTP2 which cannot be opened via "GET" in browser. This is done in FIG 3 via running GRPC client to communicate and get the result of all 4 operations.
         - Port 8981 for GET/POST calls via a Browser, bundling HTTP1 over it as shown in FIG 2. This is done by running a separate thread which exposes another port acting as a gateway for GRPC calls.  
 
