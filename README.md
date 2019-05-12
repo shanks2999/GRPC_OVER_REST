@@ -33,7 +33,7 @@
  
  
 
- PS: 
+ **PS:** 
     
     - HARDEST homework till date. Invested 20+ hours struggling with this project to send protobuffs back/forth.    
     - Half of this time was spent trying dependencies for scalaPB, Proto Compiler, and Gateway.     
