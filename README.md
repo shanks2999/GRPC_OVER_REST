@@ -29,7 +29,7 @@
  
  **Deployment on AWS Lamda**
      
-     Link:
+     Link: https://3ghwd9429f.execute-api.us-east-1.amazonaws.com/prod/mul?varA=50&varB=10
  
  
 
