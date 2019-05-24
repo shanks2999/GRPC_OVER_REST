@@ -1,6 +1,6 @@
 # README #
 
-# Cloud CS441 - Homework 6 #
+# GRPC over REST #
 
 
 **Description:**  
@@ -14,6 +14,7 @@
     - ScalaPB compiler compiles the lamda.proto into respective GRPC classes within target\scala-2.12\src_managed\main\lamda
     
     
+    
 **Execution:**  
   
    After a long struggle, I was able to run my GRPC over REST via grpcGateway provided by "beyondthelines". 
@@ -21,6 +22,8 @@
    ![Snapshot for GRPC Call](jars/GRPC_OVER_REST.PNG)
   
   
+- In the query shown the variable varA and varB can take any integer value. The function mul can be replaced by either add, div,mul or sub (basic arithematic operations).
+
 - The compiled jar is within '/jars' folder. The same is being run in the 'FIG-1' which exposes 2 ports:
    
     - Port 8980 for GRPC calls over HTTP2 which cannot be opened via "GET" in browser. This is done in 'FIG-3' via running GRPC client to communicate and get the result of all 4 operations.
@@ -30,15 +33,6 @@
  **Deployment on AWS Lamda**
      
      Link: https://3ghwd9429f.execute-api.us-east-1.amazonaws.com/prod/mul?varA=50&varB=10
- 
- 
-
- **PS:** 
-    
-    - HARDEST homework till date. Invested 20+ hours struggling with this project to send protobuffs back/forth.    
-    - Half of this time was spent trying dependencies for scalaPB, Proto Compiler, and Gateway.     
-    - Was cycling through different versions of SBT as well trying various combinations so that everything could work through 1 version( including compiling, creating proto classes, gateway dependency and assembly)   
-    - After much research I found the GRPC gateway over HTTP (from beyondthelines). Thanks to that I can build a Single SBT jar and run it ober HTTP get on browser.
-    
+     
  
 That's It ! :) 
